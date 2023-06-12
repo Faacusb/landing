@@ -36,23 +36,27 @@ nav {
 nav ul {
   list-style: none;
   text-align: right;
+  margin-right: 5px;
   float: right;
-  background-color: #C3E0E5;
+  margin-right: 10px;
   
 }
 
 nav ul li {
   margin: 5px;
-  padding-right: 5px;
   float: right;
-    list-style: none;
-    text-align: right;
+  list-style: none;
+  text-align: right;
 }
 
 nav ul li a {
+  background-color: #C3E0E5;
   float: right;
-    list-style: none;
-    text-align: right;
+  list-style: none;
+  text-align: right;
+  color: whitesmoke;
+  
+  padding: 5px;
     
 }
 
@@ -66,34 +70,49 @@ nav ul li a {
 section{
   float: left;
   width: 940px;
-  height: 350px;
+  height: 400px;
 
 }
+
 
 .container {
   
   width: 940px;
-  height: 350px;
+  height: 400px;
   background-color: #5885AF;
   display: flex;
   float: left;
 }
 .image{
-  width: 350px;
+  width: 300px;
   
+}
+.borde{
+  border-radius: 5px;
+}
+.subtitulo{
+  background-color: #5885AF;
+  padding-left: 5px;
 }
 
 
 .servicios{
   float: left;
   display: flex;
-  height: 300px;
+  padding-top: 5px;
+  height: 400px;
+}
+.servicios p{
+  color: black;
 }
 
 .contenido{
+  background-color: white;
+  border-radius: 5px;
   width: 300px;
   height: 400px;
   margin-left: 5px;
+  
 }
 
 .caja{
@@ -105,5 +124,6 @@ section{
 p{
   font-size: 20px;
   font-weight: 400;
+  color: whitesmoke;
 }
 
