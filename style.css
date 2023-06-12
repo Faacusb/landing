@@ -4,97 +4,106 @@
   box-sizing: border-box;
 }
 html{
-    width: 99%;
-}
-header {
-  height: 50px;
-  width: 99%;
-  background-color: #41729F;
-}
+  margin: 0 auto;
 
-body {
-  background-color: rosybrown;
-  padding: 10px;
+  width: 1000px;
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
   font-family: 'Playfair Display', serif;
+  }
+  
+  body {
+    margin: 0 auto;
+    width: 940px;
+    height: auto;
+    background-color: #274472;
+  }
+header {
+  height: 70px;
+  width: 940px;
+  background-color: #41729F;
+  float: right;
+  
 }
 
 
 nav {
-  height: 50px;
+  height: 70px;
+  width: 940px;
+  justify-content: center;
+  
 }
 
 nav ul {
   list-style: none;
-  overflow: hidden;
+  text-align: right;
   float: right;
+  background-color: #C3E0E5;
+  
 }
 
 nav ul li {
-    float: right;
-    font-family: Arial, Helvetica, sans-serif;;
-    font-size: 20px;
+  margin: 5px;
+  padding-right: 5px;
+  float: right;
+    list-style: none;
     text-align: right;
-    padding-top: 15px;
-    padding-right: 5px;
 }
 
 nav ul li a {
-    text-decoration: none;
-}
-#nombre {
-  width: fit-content;
-  float: left;
-  font-size: 30px;
-  padding-top: 10px;
+  float: right;
+    list-style: none;
+    text-align: right;
+    
 }
 
-#logo{
-    width: 50px;
+ nav h2{
+  color: #C3E0E5;
+  
+}
+
+
+
+section{
+  float: left;
+  width: 940px;
+  height: 350px;
+
 }
 
 .container {
+  
   width: 940px;
-  height: 800px;
-  background-color: grey;
+  height: 350px;
+  background-color: #5885AF;
+  display: flex;
   float: left;
 }
-
-.cajaChica{
-    justify-content: center;
-    margin-left: 2px;
-    padding-left: 1px;
-    width: 310px;
-    height: 350px;
-    background-color: black;
-    float: left;
-
+.image{
+  width: 350px;
+  
 }
 
-.descripcion{
-  justify-content: center;
-    margin-left: 2px;
-    /* padding-left: 1px; */
-    width: 900px;
-    height: 180px;
-    background-color: #C3E0E5;
-    float: left;
+
+.servicios{
+  float: left;
+  display: flex;
+  height: 300px;
 }
 
-.cajaMedium{
+.contenido{
+  width: 300px;
+  height: 400px;
+  margin-left: 5px;
+}
 
-  justify-content: center;
-    margin-left: 2px;
-    /* padding-left: 1px; */
-    width: 600px;
-    height: 500px;
-    background-color: #C3E0E5;
-    float: left;
+.caja{
+  width: 400px;
+  float: right;
+  background-color: red;
 }
 
 p{
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
 }
 
-/* css card */
